@@ -1,4 +1,4 @@
-@library("library-sharednya@main") _
+@library("library-sharednya@main")_
 
 pipeline {
     agent any
