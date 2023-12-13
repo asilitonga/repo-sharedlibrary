@@ -1,7 +1,7 @@
 //menggunakan shared library dari folder: vars
 @Library("library-sharednya@master")_
 //menggunakan shared library dari folder: src
-import fungsi-echo.materi-echo.Output;
+import fungsi-echo.oke1.Output;
 
 pipeline {
     agent any
