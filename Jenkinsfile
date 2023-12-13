@@ -10,7 +10,7 @@ pipeline {
         stage ("panggil file shared-library srcnya") {
             steps {
                 script {
-                    Output.hello("Developer")
+                    Output.hello(this, "Developer")
                 }
             }
         }
