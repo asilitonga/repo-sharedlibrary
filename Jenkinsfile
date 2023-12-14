@@ -8,3 +8,6 @@
 
 
 deployphp()
+logicifelse ([
+    type: "deploy"
+])
