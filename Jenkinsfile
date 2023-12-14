@@ -28,8 +28,9 @@ pipeline {
         stage ("menggunakan Map Parameter") {
             steps {
                 script {
-                    hello.person([
-                        firstName:  "Andreas"
+                    person.person([
+                        firstName:  "Andreas",
+                        lastName:   "Silitonga"
                     ])
                 }
             }
