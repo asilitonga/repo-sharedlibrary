@@ -49,8 +49,8 @@ pipeline {
         stage ("menggunakan folder: resources") {
             steps {
                 script {
-                    def config = libraryResource("config/build.json")
-                    echo(config)
+                    def variabelnya = libraryResource("filejson/build.json")
+                    echo(variabelnya)
                 }
             }
         }
