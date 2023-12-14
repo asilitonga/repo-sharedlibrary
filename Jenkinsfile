@@ -7,10 +7,19 @@ pipeline {
     agent any
     stages {
 
-        stage ("menggunakan parameter"){
+        //ditutup dulu
+        //stage ("menggunakan parameter"){
+            //steps {
+                //script {
+                    //echo("clean compile")
+                //}
+            //}
+        //}
+
+        stage ("menggunakan many-parameter") {
             steps {
                 script {
-                    echo("clean compile")
+                    maven (["clean", "compile", "test"])
                 }
             }
         }
