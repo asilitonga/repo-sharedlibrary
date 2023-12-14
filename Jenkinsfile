@@ -16,12 +16,22 @@ pipeline {
             //}
         //}
 
-        stage ("menggunakan many-parameter") {
+        stage ("menggunakan List parameter") {
             steps {
                 //instruksi dari file di shared-library
                 script {
                     maven (["clean", "compile", "test"])
                 }
+            }
+        }
+
+        stage ("menggunakan Map Parameter") {
+            steps {
+                script {
+                    hello.person([
+                        firstName:  "Andreas"
+                        lastName:   "Silitonga"
+                    ])
             }
         }
 
