@@ -9,7 +9,7 @@ pipeline {
         stage ("menggunakan function") {
             steps {
                 script {
-                    echo(fungsifunction)
+                    echo(fungsifunction())
                 }
             }
         }
