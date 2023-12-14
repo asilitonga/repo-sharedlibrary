@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script {
                     hello.person([
-                        firstName:  "Andreas"
+                        firstName:  "Andreas",
                         lastName:   "Silitonga"
                     ])
                 }
