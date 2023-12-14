@@ -32,6 +32,7 @@ pipeline {
                         firstName:  "Andreas"
                         lastName:   "Silitonga"
                     ])
+                }
             }
         }
 
