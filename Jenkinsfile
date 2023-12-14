@@ -9,6 +9,8 @@ pipeline {
         stage ("menggunakan function") {
             steps {
                 script {
+                    echo(fungsifunction.name())
+                    echo(fungsifunction.role())
                     echo(fungsifunction())
                 }
             }
