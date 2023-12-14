@@ -6,6 +6,15 @@ import classpertama.classnya.Output;
 pipeline {
     agent any
     stages {
+
+        stage ("menggunakan parameter"){
+            steps {
+                script {
+                    echo("clean compile")
+                }
+            }
+        }
+
         stage ("menggunakan function") {
             steps {
                 script {
