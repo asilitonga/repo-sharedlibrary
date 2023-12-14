@@ -6,6 +6,16 @@ import classpertama.classnya.Output;
 pipeline {
     agent any
     stages {
+        stage ("menggunakan function") {
+            steps {
+                script {
+                    echo(fungsifunction.name())
+                    echo(fungsifunction.role())
+                }
+            }
+        }
+
+
         //menggunakan folder: src (developer)
         stage ("panggil file shared-library srcnya") {
             steps {
