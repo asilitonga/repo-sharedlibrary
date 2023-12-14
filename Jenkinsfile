@@ -18,6 +18,7 @@ pipeline {
 
         stage ("menggunakan many-parameter") {
             steps {
+                //instruksi dari file di shared-library
                 script {
                     maven (["clean", "compile", "test"])
                 }
