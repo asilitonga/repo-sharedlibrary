@@ -7,7 +7,7 @@
 @Library("library-sharednya@master")_
 
 
-deployphp()
+//deployphp()
 logicifelse ([
     type: "deploy"
 ])
